@@ -1,0 +1,36 @@
+// From bootstrap
+// ----------------------------------------------------
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+// Body horizontal fix
+// ----------------------------------------------------
+
+html, body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+// ----------------------------------------------------
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+  background-color: lighten(#304452, 10);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
